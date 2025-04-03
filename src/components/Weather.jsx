@@ -61,7 +61,7 @@ const Weather = () => {
         location: data.name,
         icon: icon,
       });
-    } catch (error) {
+    } catch {
         setWeatherData(false);
         console.error("Error fetching weather data");
 
